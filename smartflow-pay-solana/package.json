@@ -1,0 +1,22 @@
+{
+  "name": "smartflow-pay-solana",
+  "version": "0.1.0",
+  "description": "SmartFlow Pay — Solana Edition: Audit-ready invoice protocol on Solana",
+  "private": true,
+  "scripts": {
+    "test": "ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/web3.js": "^1.95.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.7",
+    "chai": "^4.4.1",
+    "mocha": "^5.0.5",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.5.4"
+  }
+}
